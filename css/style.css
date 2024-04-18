@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0;}
+
+h1, h2, h3, p {
+    color: white
+}
+
+body {
+    background-image: url("fundo.jpeg");
+    padding: 5%;
+    font-family: "trebuchet MS";
+}
+
+#corpo {
+    background: #000000;
+    border: 1px solid #190985;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(14, 52, 189, 0.678);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #010102;
+    padding: 2%;
+    border-bottom: 1px solid #021f85;
+
+}
+
+main {
+    padding: 2%;
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+    padding: 2%;
+    border-top: 1px solid #000000;
+
+}
+
+footer address, footer{
+    color: white;
+}
+
+header h1{ /* header h1, esta especificando onde vai ser essa 
+    alterção, vai ser no cabeçalho e somente no h1's que estão presente no header*/
+    text-align: center;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-transform: uppercase;
+}
+
+
